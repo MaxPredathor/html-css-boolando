@@ -3,3 +3,39 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    width: 100vw;
+    background-color: #ff6900;
+    position: fixed;
+}
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+.nav-items{
+    display: inline-block;
+    padding: 20px 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-items:hover{
+    text-decoration: underline;
+}
+.img-container{
+    width: 25%;
+    height: 50%;
+    background-image: url(/img/boolean-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-logo{
+    object-fit: cover;  
+}
