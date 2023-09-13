@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* HEADER */
 header{
     width: 100vw;
     background-color: #ff6900;
@@ -38,4 +39,21 @@ header{
 }
 .img-logo{
     object-fit: cover;  
+}
+/* MAIN */
+.debug{
+    border: 2px solid firebrick;
+}
+.main-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.card-container{
+    width: 100%;
+}
+.card{
+    width: calc(100% / 3);
+}
+.card > img{
+    object-fit: cover;
 }
