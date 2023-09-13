@@ -62,11 +62,11 @@ main{
 }
 .card-container{
     width: 100%;
-    position: relative;
 }
 .card{
     width: calc(100% / 3);
     padding: 10px;
+    position: relative;
 }
 .card > img{
     width: 100%;
@@ -87,18 +87,20 @@ main{
 }
 #img1b{
     display: none;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    padding: 10px;
 }
 .crossed-text{
     text-decoration: line-through;
     color: black;
     font-size: 10px;
 }
-#card1:hover #img1{
+.card:hover #img1{
    display: none;
 }
-#card1:hover #img1b{
+.card:hover #img1b{
     display: inline;
 }
